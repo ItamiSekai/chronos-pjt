@@ -5,6 +5,7 @@ import { Logo } from './components/Logo';
 import { Menu } from './components/Menu';
 import { Cycles } from './components/Cycles';
 import { DefaultButton } from './components/DefaultButton';
+import { Footer } from './components/Footer';
 import { PlayCircleIcon } from 'lucide-react';
 
 import './styles/global.css';
@@ -45,6 +46,9 @@ export function App() {
             <DefaultButton icon={<PlayCircleIcon />} />
           </div>
         </form>
+      </Container>
+      <Container>
+        <Footer />
       </Container>
     </>
   );
